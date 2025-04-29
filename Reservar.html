@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Hotel</title>
+    <link rel="stylesheet" href="../css/reservar.css">
+    <link rel="stylesheet" href="../css/style.css">
+    
+    <link rel="shortcut icon" href="../src/Imagens ProjetoHotel/hotel.png" type="image/x-icon">
+
+
+</head>
+
+<body>
+    <div id="pagina">
+        <div class="principal corpo">
+            <header>
+                <div class="logo">
+                    <img src="../src/Imagens ProjetoHotel/Capturar.PNG" alt="Logo do Hotel">
+                    <h2>Relaxe,Revitalize e Respire</h2>
+                </div>
+                
+
+                <div class="opcao" id="grupo-opcao">
+                    
+                    <a href="../index/Reservar.html"> <img src="../src/Imagens ProjetoHotel/carrinho-de-compras.png" alt=""></a>
+                    <a href="../index/login.html"><img src="../src/Imagens ProjetoHotel/do-utilizador.png" alt=""></a>
+               
+               <img id="aberto" src="../src/Imagens ProjetoHotel/menu-aberto.png" alt="">
+               
+                
+            </div>
+
+                <div class="menu" id="menu">
+                    <nav>
+                        <ul>
+                            <a href="../index/home.html">
+                                <li>Home</li>
+                            </a>
+                            <a href="../index/quartos.html">
+                                <li>Quartos</li>
+                            </a>
+                            <a href="../index/Reservar.html">
+                                <li>Reservar</li>
+                            </a>
+                            <a href="../index/local.html">
+                                <li>Localização</li>
+                            </a>
+                            <a href="../index/SuasReservas.html">
+                                <li>Suas Reservas</li>
+                            </a>
+                        </ul>
+                    </nav>
+                </div>
+
+
+                <button class="btn-menu">
+                    <a href="./login.html">login/cadastre-se</a>
+                </button>
+
+            </header>
+
+            <div class="linha">
+                <hr>
+            </div>
+
+
+            <div class="quadro01">
+
+
+                <div class="nome">
+                    <h1>Etapa 01: Cadastro</h1>
+                    <label for="Nome">Nome</label>
+                    <input type="text" name="nome" class="campo" id="form-nome" placeholder="Informe o seu nome">
+                    <br>
+                    <label for="Sobrenome">Sobrenome</label>
+                    <input type="text" name="Sobrenome" class="campo" id="form-sobrenome"
+                        placeholder="Informe o seu Sobrenome">
+                    <br>
+                    <label for="">Telefone</label>
+                    <input type="tel" name="telefone" class="telefone" id="form-telefone"
+                        placeholder="Informe o seu telefone">
+                </div>
+
+
+
+
+
+            </div>
+            <div class="linha">
+                <hr>
+            </div>
+            <div class="quadro01">
+
+
+                <div class="nome">
+                    <h1>Etapa 02: Confirme o seu quarto</h1>
+                    <label for="Nome">Nome do quarto</label>
+                    <input type="text" name="nomeQuarto" class="campoQuarto" id="form-quarto"
+                        placeholder="Informe o nome do quarto">
+                    <br>
+                    <label for="data">data do check-In</label>
+                    <input type="datetime" name="checkIn" class="checkIn" id="form-checkIn"
+                        placeholder="Informe a data Check-In">
+                    <br>
+                    <label for="checkOut">check-Out</label>
+                    <input type="datetime" name="checkOut" class="checkOut" id="form-checkOut"
+                        placeholder="Informe a data do Check-out">
+                </div>
+            </div>
+
+            <div class="linha">
+                <hr>
+            </div>
+
+            <div class="quadro01">
+                <div class="pagamento">
+                    <h1>Etapa 03:Escolha o pagamento</h1>
+                    <p>Escolha a forma de pagamento</p>
+                    <br>
+                    <div class="opcao2">
+                        <div class="escolha">
+                            <input type="radio" name="pagamento[]" id="" value="cartao">
+                            <label for="cartao">Cartão de crédito</label>
+                        </div>
+                        <div class="escolha">
+                            <input type="radio" name="pagamento[]" id="" value="cartao de débito">
+                            <label for="cartaoDebito">Cartão de débito</label>
+                        </div>
+                        <div class="escolha">
+                            <input type="radio" name="pagamento[]" id="pix" value="pix">
+                            <label for="pix">Pix</label>
+                        </div>
+                        <div class="escolha">
+                            <input type="radio" name="pagamento[]" id="" value="boleto" class="">
+                            <label for="boleto">Boleto bancário</label>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="botao">
+                    <button class="voltar">Voltar</button>
+                    <button class="confirmar">Confirmar</button>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div class="linha">
+            <hr>
+        </div>
+
+        <footer>
+            <div class="redes">
+                <img src="../src/Imagens ProjetoHotel/logo.png" alt="">
+
+
+
+                <img src="../src/Imagens ProjetoHotel/logotipo-visa (1).png" alt="">
+            </div>
+            <div class="cartao">
+                <img src="../src/Imagens ProjetoHotel/pix.png" alt="">
+            </div>
+        </footer>
+
+
+
+
+
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="../src/js/menu.js"></script>
+
+
+
+</body>
+
+</html>
