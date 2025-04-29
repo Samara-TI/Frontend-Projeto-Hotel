@@ -1,0 +1,247 @@
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+}
+
+#pagina{
+    min-height: 100%;
+    max-width: 100%;
+    position: relative;
+    background-color: #DBDAD5;
+}
+
+.principal{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    position: relative;
+}
+
+.corpo{
+    padding-bottom: 150px;
+}
+
+header{
+    height: 180px;
+    width: 100vw;
+    display: flex;
+    background-color: #00192F
+
+}
+
+
+.logo {
+   
+    width: 15vw;
+    text-align: center;
+}
+
+.logo img{
+   margin-top: 15%;
+    width: 120px;
+    height: auto;
+}
+
+
+
+.logo h2{
+    color: #ffff;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+   
+}
+
+.btn-menu{
+    background-color: white;
+    color: #012F58;
+    width: 227px;
+    height: 31px;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px rgb(155, 155, 158);
+    
+    margin-top: 5%;
+    
+    justify-content: center;
+}
+.btn-menu a{
+    text-decoration: none;
+    color: #012F58;
+}
+.menu ul li:hover{
+    color: #fff;
+    transform: scale(1.15);
+
+}
+
+
+.menu {
+    
+    width: 75px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 60vw;
+    margin-left: 40%;
+    margin-top: 15%;
+    background-color: #00192F;
+  
+}
+
+.menu ul li{
+    color: #ffff;
+    background-color: #00192F;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.menu ul a{
+    text-decoration: none;
+}
+
+
+footer{
+    width:100%;
+    background-color: #00192F;
+    height: 140px;
+    display: flex;
+    justify-content:space-between;
+    justify-content: right;
+    align-items: center;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    padding: 2px;
+
+}
+
+.redes img{
+    width: 50px;
+    height: auto;
+}
+
+.cartao img{
+    width: 45px;
+    height: auto;
+}
+
+
+@media screen and (max-width: 1380px){
+
+    .menu{
+       display: none;
+    }
+
+    .menu ul{
+        display: block;
+        width: 15vw;
+        justify-content: center;
+        
+    }
+
+    .menu ul li{
+        text-align: center;
+        font-size: 14px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+       
+    }
+
+
+    .btn-menu{
+       
+        font-size: 15px;
+        width: 110vw;
+        margin-right: 5%;
+    }
+
+    .opcao{
+        display: flex;
+       
+        width: 500vw;
+        justify-content: end;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .opcao img{
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+    }
+
+    #menu.visible{
+        
+        width: 20vw;
+        height: 100px;
+        display: block;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        position: absolute;
+        text-align: center;
+        z-index: 1;
+        border-radius: 5px;
+        top: 12vh; 
+        left: 50%;
+    }
+
+    .menu ul li{
+        background-color: #59746D;
+    }
+    
+
+
+    .logo h2{
+        font-size: 12px;
+    }
+
+    .logo img{
+        width: 10vw;
+    }
+}
+
+
+@media screen and (min-width:1380px){
+    .opcao{
+        display: none;
+    }
+
+    .menu{
+        display: flex;
+    }
+
+    .btn-menu{
+        margin-left: 50vw;
+    }
+
+
+}
+
+
+
+
+
+
+

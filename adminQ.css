@@ -1,0 +1,13 @@
+
+
+.bg-body-secondary {
+    --bs-bg-opacity: 1;
+    background-color: #00192F !important;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #012F58;
+    --bs-btn-border-color: #012F58;
+
+}

@@ -1,0 +1,168 @@
+.tudo{
+    background-color: #4C6665;
+    width: 55vw;
+    height: 27vh;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2.5%;
+    border-radius: 15px;
+    
+}
+
+.hr{
+    margin-top: 2.5%;
+}
+.linha{
+    display: flex;
+    align-items: center;
+    width: 55vw;
+    height: 27vh;
+    padding: 10px;
+
+    
+}
+
+.linha img{
+   border-radius: 25px;
+   width: 15vw;
+
+    }
+
+.texto{
+    color: white;
+    padding-top: 15px;
+    padding-left: 5px;
+    width: 70%;
+    margin-left: 5%;
+}
+
+.texto p{
+    font-size: 20px;
+    
+
+}
+
+.texto h3{
+    font-size: 30px;
+}
+
+.valor{
+    color: white;
+    padding-right: 5%;
+    font-size: 18px;
+    width: 13%;
+    height: 100%;
+    margin-top: 40%;
+
+
+}
+
+
+.valor p{
+  
+    
+    height: 100%;
+}
+.botao{
+    
+    display: flex;
+    color: white;
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+    padding-right: 2%;
+    margin-bottom: 2%;
+   
+    margin-top: 40%;
+
+}
+
+.botao p{
+   margin-right: 5%;
+   padding-top: 5%;
+}
+
+.botao button{
+    width: 4vw;
+    height: 4vh;
+   font-weight: 700;
+   border: none;
+   cursor: pointer;
+   margin-bottom: 8%;
+   border-radius: 5px;
+   
+   
+}
+
+.botao a{
+    text-decoration: none;
+   color: #012F58;
+}
+
+@media screen and (max-width: 1442px){
+    .valor{
+        font-size: 15px;
+
+    }
+
+    .texto p{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1182px){
+    .valor{
+        margin-right:5% ;
+    }
+}
+
+@media screen and (max-width: 1126px){
+    .botao{
+        margin-top: 65%;
+        margin-right:4% ;
+
+    }
+
+    .botao button{
+        font-size: 10px;
+    }
+
+    .texto p{
+        font-size: 15px;
+    }
+
+    .texto{
+        margin-right: 5%;
+    }
+}
+
+@media screen and (max-width: 922px){
+    .valor{
+        margin-top: 85%;
+        margin-right: 8%;
+    }
+
+    .texto p{
+        font-size: 15px;
+    }
+
+    .texto h3{
+        font-size: 25;
+    }
+
+    .botao{
+        margin-top: 85%;
+    }
+}
+
+
+@media screen and (max-width: 804px){
+    .valor{
+        margin-right: 10%;
+    }
+
+    .valor{
+        margin-top: 95%;
+        margin-right: 8%;
+    }
+}

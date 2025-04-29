@@ -1,0 +1,49 @@
+.carrossel{
+    background-color: blue;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.carrossel img{
+    background-color: blueviolet;
+    width: 50px;
+    margin-left: auto;
+    margin-right:auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.carro{
+    background-color: #59746D;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 8px;
+}
+
+.texto {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+}
+
+.texto h2{
+    font-size: 45px;
+    
+}
+
+
+.mapa {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.mapa iframe{
+    width: 90%;
+    margin-bottom: 5%;
+}
+

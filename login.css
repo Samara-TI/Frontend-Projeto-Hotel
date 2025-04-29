@@ -1,0 +1,311 @@
+.quadrado {
+    color: white;
+    background-color: #557e7c;
+    width: 40vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    opacity: 0.8;
+    border-radius: 5%;
+    border: 4px solid 678382;
+    box-shadow: 2px 2px 2px #012F58;
+}
+
+.texto {
+    width: 60vw;
+    text-align: center;
+}
+
+.texto h2 {
+    font-size: 40px;
+    margin: 4vh 0 6.2vh;
+}
+
+form {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.teste {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: transparent;
+    width: 55%;
+}
+
+.usuario, .senha {
+    font-size: 25px;
+    margin-bottom:7px;
+}
+
+.campo {
+    width: 100%;
+    height: 6vh;
+    border-radius: 7px;
+    font-size: 20px;
+    border: 4px solid #9AB5AE;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.alinhar-teste {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+    margin-bottom: 20px;
+}
+
+.lembrar {
+    display: flex;
+    align-items: center;
+
+}
+
+.entrar-social {
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+    margin-top: 10px;
+}
+
+.google, .facebook {
+    width: 14vw; 
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(150, 150, 150);
+    border-radius: 6px;
+    height: 3.5vh;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.google img, .facebook img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.entrar {
+    background-color: #153452;
+    color: white;
+    width: 20vw;
+    height: 6vh;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-top: 15%;
+    cursor: pointer;
+    border-style: solid; border-color: #3f6968;
+}
+
+.entrar a{
+    text-decoration: none;
+    color: white;
+}
+
+.registro{
+    background-color: #153452;
+    color: white;
+    width: 25vw;
+    height: 6vh;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-top: 3%;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #3f6968;
+
+}
+
+.registro-botao {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    font-size: large;
+    text-decoration: none;
+
+}
+
+.registro-botao a{
+    text-decoration: none;
+    color: white;
+}
+
+hr{
+    width: 60%;
+}
+
+@media screen and (max-width: 1310px){
+    .google, .facebook {
+        width: 12vw;
+        font-size: 12px;
+    }
+    .campo {
+        height: 5vh;
+    }
+    .esquecer p, .lembrar p {
+        font-size: 14px;
+    }
+    .texto h2 {
+        font-size: 30px;
+    }
+    .usuario, .senha {
+        font-size: 20px;
+    }
+    .entrar {
+        width: 15vw;
+        height: 5vh;
+    }
+    .registro {
+        width: 20vw;
+        height: 5vh;
+    }
+}
+
+@media screen and (max-width: 1207px){
+    .google img, .facebook img {
+        width: 15px;
+        height: 15px;
+    }
+    .google, .facebook {
+        width: 13vw;
+        font-size: 12px;
+    }
+    .campo {
+        height: 5vh;
+        font-size: 16px;
+    }
+    .texto h2 {
+        font-size: 28px;
+    }
+    .entrar {
+        width: 15vw;
+        height: 5vh;
+        font-size: 17px;
+    }
+    .registro {
+        width: 20vw;
+        height: 5vh;
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 1075px){
+    .google img, .facebook img {
+        width: 12px;
+        height: 12px;
+        margin-left: 3px;
+    }
+    .google, .facebook {
+        width: 15vw;
+        font-size: 11px;
+    }
+    .campo {
+        height: 4vh;
+        font-size: 13px;
+    }
+    .esquecer p, .lembrar p {
+        font-size: 12px;
+    }
+    .usuario, .senha {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+    .entrar {
+        width: 12vw;
+        height: 5vh;
+        font-size: 15px;
+    }
+    .registro {
+        width: 15vw;
+        height: 5vh;
+        font-size: 15px;
+    }
+    .quadrado {
+        height: 75vh;
+    }
+}
+
+@media screen and (max-width: 880px){
+    .entrar-social,
+    .alinhar-teste,
+    .teste {
+        width: 85%;
+    }
+    .google, .facebook {
+        width: 17vw;
+        font-size: 12px;
+    }
+    .entrar {
+        margin-top: 30%;
+    }
+    .quadrado {
+        width: 60vw;
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .entrar-social,
+    .alinhar-teste,
+    .teste {
+        width: 95%;
+    }
+    .google, .facebook {
+        width: 22vw;
+        height: 4.2vh;
+    }
+    .entrar {
+        width: 22vw;
+        margin-top: 30%;
+    }
+    .registro {
+        width: 28vw;
+    }
+    .quadrado {
+        width: 70vw;
+        height: 82vh;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .entrar-social {
+        display: block;
+        height: 10vh;
+        width: 35vw;
+    }
+    .google, .facebook {
+        width: 35vw;
+        height: 4.8vh;
+        margin-bottom: 10px;
+    }
+    .campo {
+        height: 6vh;
+    }
+    .entrar {
+        width: 30vw;
+        height: 6vh;
+        font-size: 18px;
+        margin-top: 15%;
+    }
+    .registro {
+        width: 45vw;
+        height: 6vh;
+        font-size: 18px;
+    }
+    .quadrado {
+        height: 90vh;
+    }
+}

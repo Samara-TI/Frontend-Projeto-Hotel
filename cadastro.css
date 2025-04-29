@@ -1,0 +1,257 @@
+.quadrado {
+    color: white;
+    background-color: #557e7c;
+    width: 50vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    opacity: 0.8;
+    border-radius: 5%;
+    border: 4px solid 678382;
+    box-shadow: 2px 2px 2px #012F58;
+    
+}
+
+.cadastre-se{
+    align-items: center;
+    width: 45vw;
+    margin-right: auto;
+    margin-left: auto;
+
+    
+}
+
+.cadastre-se p{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 4vh;
+
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+
+}
+
+
+
+.nome , .data , .telefone , .senha{
+    font-size: 20px;
+    margin-bottom:7px;
+    width: 36vw;
+}
+
+.campo , .campo-tel , .campo-senha, .campo-dia{
+    width:80%;
+    height: 6vh;
+    border-radius: 7px;
+    font-size: 20px;
+    border: 4px solid #9AB5AE;
+    padding: 5px;
+    margin-bottom: 20px;
+} 
+
+.dia  {
+    border-style: solid;
+    border-color: #9AB5AE;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 6vh;
+    border-radius: 7px;
+    font-size: 20px;
+    border-width: 2px;
+    cursor: pointer;
+    
+
+}
+.aniversario{
+    display: flex;
+    width: 36vw;
+}
+.mes{
+    border-style: solid;
+    border-color: #9AB5AE;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 6vh;
+    border-radius: 7px;
+    font-size: 20px;
+    border-width: 2px;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+.ano{
+    border-style: solid;
+    border-color: #9AB5AE;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 6vh;
+    border-radius: 7px;
+    font-size: 20px;
+    border-width: 2px;
+    margin-left: 2%;cursor: pointer;
+}
+
+.entrar {
+    background-color: #153452;
+    color: white;
+    width: 20vw;
+    height: 6vh;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-top: 15%;
+    cursor: pointer;
+    border-style: solid; border-color: #3f6968;
+    margin-left: auto;
+    margin-right: auto;
+   
+
+}
+
+.entrar-botao{
+    width: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.entrar-botao a{
+    text-decoration: none;
+    color: white;
+}
+
+hr{
+    width: 80%;
+}
+
+
+@media screen and (max-width: 1340px){
+    .quadrado {
+        width: 60vw;
+    }
+    
+    .cadastre-se p{
+        font-size: 30px;
+    }
+    
+    .nome, .data, .telefone, .senha {
+        font-size: 18px;
+        width: 40vw;
+    }
+    
+    .campo, .campo-tel, .campo-senha, .campo-dia {
+        width: 90%;
+        font-size: 18px;
+    }
+    
+    .aniversario {
+        width: 40.3vw;
+    }
+}
+
+@media screen and (max-width: 1160px){
+    .nome, .data, .telefone, .senha {
+        width: 45vw;
+    }
+    
+    .campo, .campo-tel, .campo-senha, .campo-dia {
+        width: 100%;
+    }
+    
+    .aniversario {
+        width: 45vw;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .quadrado {
+        width: 70vw;
+    }
+    
+    .cadastre-se p {
+        font-size: 25px;
+    }
+    
+    .nome, .data, .telefone, .senha {
+        font-size: 17px;
+    }
+    
+    .campo, .campo-tel, .campo-senha, .campo-dia {
+        width: 110%;
+        height: 5vh;
+    }
+    
+    .dia, .mes, .ano {
+        height: 5vh;
+        border-width: 3px;
+    }
+    
+    .aniversario {
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 780px){
+    .quadrado {
+        width: 75vw;
+        height: 80vh;
+    }
+    
+    .nome, .data, .telefone, .senha {
+        width: 54vw;
+    }
+    
+    .campo, .campo-tel, .campo-senha, .campo-dia {
+        width: 120%;
+    }
+    
+    .aniversario {
+        width: 54vw;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .quadrado {
+        width: 85vw;
+    }
+    
+    .nome, .data, .telefone, .senha {
+        width: 58vw;
+    }
+    
+    .campo, .campo-tel, .campo-senha, .campo-dia {
+        width: 130%;
+    }
+    
+    .aniversario {
+        width: 58vw;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .entrar {
+        width: 30vw;
+    }
+    
+    .entrar-botao {
+        width: 30vw;
+    }
+    
+    hr {
+        width: 40vh;
+    }
+}
